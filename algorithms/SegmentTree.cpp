@@ -39,4 +39,4 @@ class SegmentTree {
             tree[v] = tree[2*v]+tree[2*v+1];
         }
     }
-}
+};
