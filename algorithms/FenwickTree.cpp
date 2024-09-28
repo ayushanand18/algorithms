@@ -26,4 +26,7 @@ class FenwickTree {
 
         return res;
     }
+    int range(int left, int right) {
+        return sum(right) - sum(left-1);
+    }
 };
